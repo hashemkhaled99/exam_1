@@ -566,6 +566,7 @@ body {
 .col-lg-3:nth-child(2) .contact-card.card:hover { border-color: rgba(168, 85, 247, 0.45) !important; }
 .col-lg-3:nth-child(3) .contact-card.card:hover { border-color: rgba(236, 72, 153, 0.45) !important; }
 .col-lg-3:nth-child(4) .contact-card.card:hover { border-color: rgba(99, 102, 241, 0.45) !important; }
+.contact-card.card:hover h3,
 .contact-card.card:hover h5,
 .contact-card.card:hover p,
 .contact-card.card:hover a,
@@ -614,6 +615,13 @@ body {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.1) translateY(-2px);
   color: #fff;
+}
+.bg-gradient-violet .btn.social-btn:hover,
+.bg-gradient-violet .btn.social-btn:focus-visible {
+  background-color: var(--eh-purple) !important;
+  border-color: rgba(255, 255, 255, 0.35) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 15px rgba(124, 58, 237, 0.35);
 }
 
 /* Footer ----------------------------------------------------------- */
