@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EliteHomes - Your Dream Home Awaits</title>
+    <meta
+      name="description"
+      content="EliteHomes helps you find, buy, sell, and invest in premium properties in prime locations. Discover luxury homes, apartments, and commercial real estate."
+    />
+    <meta name="author" content="EliteHomes" />
+    <meta
+      name="keywords"
+      content="real estate, luxury homes, apartments, buy home, sell home, property investment, commercial real estate"
+    />
+    <meta name="theme-color" content="#7c3aed" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="EliteHomes - Your Dream Home Awaits" />
+    <meta
+      property="og:description"
+      content="Discover exceptional properties in prime locations. From modern condos to luxury estates, we help you find the perfect place to call home."
+    />
+    <meta property="og:image" content="img/hero-bg-img.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="EliteHomes - Your Dream Home Awaits" />
+    <meta
+      property="twitter:description"
+      content="Discover exceptional properties in prime locations. From modern condos to luxury estates, we help you find the perfect place to call home."
+    />
+    <meta property="twitter:image" content="img/hero-bg-img.png" />
+
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <script>
+      window.FontAwesomeConfig = { autoReplaceSvg: "nest" };
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/animations.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header id="header" class="fixed-top bg-white border-bottom">
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4 text-dark" href="#hero-section">
+            EliteHomes
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero-section">Home</a>
+              </li>
+              <li class="nav-item dropdown position-static" id="desktop-properties-dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="propertiesDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Properties
+                </a>
+                <div
+                  class="dropdown-menu mega-menu"
+                  id="desktop-mega-menu"
+                  aria-labelledby="propertiesDropdown"
+                >
+                  <div class="row g-4">
+                    <!-- Featured Properties -->
+                    <div class="col-lg-3 col-md-6">
+                      <h5 class="fw-bold mb-3">Featured Properties</h5>
+                      <a href="#" class="d-block p-2 rounded-4 text-decoration-none hover-bg-light">
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="img/luxury-villa.jpeg"
+                            alt="Luxury Home"
+                            class="rounded-4 obj-cover"
+                            width="64"
+                            height="64"
+                           loading="lazy" />
+                          <div class="ms-3">
+                            <h6 class="mb-1 text-dark">Luxury Villa</h6>
+                            <p class="small text-muted mb-0">$2.5M • 5 beds • 4 baths</p>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" class="d-block p-2 rounded-4 text-decoration-none hover-bg-light mt-2">
+                        <div class="d-flex align-items-center">
+                          <img
+                            src="img/modern-apartment.jpeg"
+                            alt="Modern Apartment"
+                            class="rounded-4 obj-cover"
+                            width="64"
+                            height="64"
+                           loading="lazy" />
+                          <div class="ms-3">
+                            <h6 class="mb-1 text-dark">Modern Apartment</h6>
+                            <p class="small text-muted mb-0">$850K • 2 beds • 2 baths</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- Property Types -->
+                    <div class="col-lg-3 col-md-6">
+                      <h5 class="fw-bold mb-3">Property Types</h5>
+                      <ul class="list-unstyled mb-0">
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none text-secondary d-flex align-items-center hover-violet">
+                            <i class="fas fa-home me-2 text-muted icon-w-sm text-center"></i>
+                            <span>Single Family Homes</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none text-secondary d-flex align-items-center hover-violet">
+                            <i class="fas fa-building me-2 text-muted icon-w-sm text-center"></i>
+                            <span>Apartments</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none text-secondary d-flex align-items-center hover-violet">
+                            <i class="fas fa-warehouse me-2 text-muted icon-w-sm text-center"></i>
+                            <span>Condominiums</span>
+                          </a>
+                        </li>
+                        <li class="mb-2">
+                          <a href="#" class="text-decoration-none text-secondary d-flex align-items-center hover-violet">
+                            <i class="fas fa-store me-2 text-muted icon-w-sm text-center"></i>
+                            <span>Commercial</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#" class="text-decoration-none text-secondary d-flex align-items-center hover-violet">
+                            <i class="fas fa-tree me-2 text-muted icon-w-sm text-center"></i>
+                            <span>Land & Lots</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!-- Popular Locations -->
+                    <div class="col-lg-3 col-md-6">
+                      <h5 class="fw-bold mb-3">Popular Locations</h5>
+                      <a href="#" class="d-block mb-3">
+                        <div
+                          class="position-relative rounded-4 overflow-hidden location-thumb location-thumb-new-york"
+                        >
+                          <div class="position-absolute inset-0 bg-dark bg-overlay-dark"></div>
+                          <div class="position-absolute top-0 start-0 w-100 h-100 p-3 d-flex flex-column justify-content-center">
+                            <span class="text-white fw-semibold fs-5">New York</span>
+                            <span class="text-white-50 small">2,145 Properties</span>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" class="d-block mb-3">
+                        <div
+                          class="position-relative rounded-4 overflow-hidden location-thumb location-thumb-los-angeles"
+                        >
+                          <div class="position-absolute inset-0 bg-dark bg-overlay-dark"></div>
+                          <div class="position-absolute top-0 start-0 w-100 h-100 p-3 d-flex flex-column justify-content-center">
+                            <span class="text-white fw-semibold fs-5">Los Angeles</span>
+                            <span class="text-white-50 small">1,873 Properties</span>
+                          </div>
+                        </div>
+                      </a>
+                      <a href="#" class="d-block">
+                        <div
+                          class="position-relative rounded-4 overflow-hidden location-thumb location-thumb-miami"
+                        >
+                          <div class="position-absolute inset-0 bg-dark bg-overlay-dark"></div>
+                          <div class="position-absolute top-0 start-0 w-100 h-100 p-3 d-flex flex-column justify-content-center">
+                            <span class="text-white fw-semibold fs-5">Miami</span>
+                            <span class="text-white-50 small">1,526 Properties</span>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- Resources -->
+                    <div class="col-lg-3 col-md-6">
+                      <h5 class="fw-bold mb-3">Resources</h5>
+                      <a
+                        href="#"
+                        class="d-block text-decoration-none border rounded-4 p-3 mb-3 position-relative overflow-hidden hover-border-violet"
+                      >
+                        <div class="d-flex align-items-center mb-2">
+                          <div class="bg-violet-soft rounded-circle d-flex align-items-center justify-content-center icon-circle-sm">
+                            <i class="fas fa-book-open text-violet"></i>
+                          </div>
+                          <h6 class="fw-bold text-dark ms-3 mb-0">Buying Guide</h6>
+                        </div>
+                        <p class="small text-secondary mb-2">Essential tips and strategies for first-time homebuyers</p>
+                        <div class="d-flex align-items-center text-violet small fw-medium">
+                          <span>Learn More</span>
+                          <i class="fas fa-arrow-right ms-2"></i>
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        class="d-block text-decoration-none border rounded-4 p-3 mb-3 position-relative overflow-hidden hover-border-green"
+                      >
+                        <div class="d-flex align-items-center mb-2">
+                          <div class="bg-green-soft rounded-circle d-flex align-items-center justify-content-center icon-circle-sm">
+                            <i class="fas fa-chart-line text-success"></i>
+                          </div>
+                          <h6 class="fw-bold text-dark ms-3 mb-0">Investment Tips</h6>
+                        </div>
+                        <p class="small text-secondary mb-2">Smart strategies for property investment success</p>
+                        <div class="d-flex align-items-center text-success small fw-medium">
+                          <span>Learn More</span>
+                          <i class="fas fa-arrow-right ms-2"></i>
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        class="d-block text-decoration-none border rounded-4 p-3 position-relative overflow-hidden hover-border-purple"
+                      >
+                        <div class="d-flex align-items-center mb-2">
+                          <div class="bg-purple-soft rounded-circle d-flex align-items-center justify-content-center icon-circle-sm">
+                            <i class="fas fa-file-alt text-purple"></i>
+                          </div>
+                          <h6 class="fw-bold text-dark ms-3 mb-0">Market Reports</h6>
+                        </div>
+                        <p class="small text-secondary mb-2">In-depth analysis of real estate market trends</p>
+                        <div class="d-flex align-items-center text-purple small fw-medium">
+                          <span>Learn More</span>
+                          <i class="fas fa-arrow-right ms-2"></i>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services-tabs">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq-section">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-section">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="hero-section"
+      class="bg-gradient-violet-hero min-vh-100 position-relative text-white pt-header pb-5"
+    >
+      <div class="container position-relative z-2 py-4 py-lg-5">
+        <div class="row justify-content-center">
+          <div class="col-xl-10 col-lg-11 text-center">
+            <h1 class="display-2 fw-bold mb-4 hero-title">Find Your Dream Home</h1>
+            <p class="hero-subtitle lead mb-4 mx-auto text-max-width">
+              Discover exceptional properties in prime locations. From modern
+              condos to luxury estates, we help you find the perfect place to call
+              home.
+            </p>
+
+            <!-- Search Bar -->
+            <form id="heroSearchForm" class="hero-search-card card border-0 bg-white rounded-5 p-4 p-md-5 shadow-lg mx-auto text-start hero-search-max needs-validation" novalidate>
+              <div class="row g-3 mb-3">
+                <div class="col-lg-6">
+                  <label for="heroLocation" class="form-label hero-label">Location</label>
+                  <div class="input-group input-group-lg has-validation">
+                    <span class="input-group-text bg-light border-0 rounded-start-3">
+                      <i class="fas fa-map-marker-alt text-muted"></i>
+                    </span>
+                    <input
+                      type="text"
+                      class="form-control bg-light border-0 rounded-end-3"
+                      id="heroLocation"
+                      name="location"
+                      placeholder="Enter city, neighborhood, or ZIP code"
+                      required
+                    />
+                    <div class="invalid-feedback">Please enter a location.</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <label for="heroType" class="form-label hero-label">Property Type</label>
+                  <select class="form-select form-select-lg form-field-light rounded-3" id="heroType" name="propertyType">
+                    <option value="">All Types</option>
+                    <option>House</option>
+                    <option>Apartment</option>
+                    <option>Condo</option>
+                    <option>Townhouse</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <label for="heroPrice" class="form-label hero-label">Price Range</label>
+                  <select class="form-select form-select-lg form-field-light rounded-3" id="heroPrice" name="priceRange">
+                    <option value="">Any Price</option>
+                    <option>$0 - $500K</option>
+                    <option>$500K - $1M</option>
+                    <option>$1M - $2M</option>
+                    <option>$2M+</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row g-3 mb-4">
+                <div class="col-lg-3 col-md-6">
+                  <label for="heroBeds" class="form-label hero-label">Bedrooms</label>
+                  <select class="form-select form-select-lg form-field-light rounded-3" id="heroBeds" name="bedrooms">
+                    <option value="">Any</option>
+                    <option>1+</option>
+                    <option>2+</option>
+                    <option>3+</option>
+                    <option>4+</option>
+                    <option>5+</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <label for="heroBaths" class="form-label hero-label">Bathrooms</label>
+                  <select class="form-select form-select-lg form-field-light rounded-3" id="heroBaths" name="bathrooms">
+                    <option value="">Any</option>
+                    <option>1+</option>
+                    <option>2+</option>
+                    <option>3+</option>
+                    <option>4+</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <label for="heroMinSqft" class="form-label hero-label">Min Sq Ft</label>
+                  <input type="number" class="form-control form-control-lg form-field-light rounded-3" id="heroMinSqft" name="minSqft" placeholder="1,000" min="0" />
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <label for="heroMaxSqft" class="form-label hero-label">Max Sq Ft</label>
+                  <input type="number" class="form-control form-control-lg form-field-light rounded-3" id="heroMaxSqft" name="maxSqft" placeholder="5,000" min="0" />
+                </div>
+              </div>
+
+              <button class="btn btn-gradient-violet btn-lg w-100 py-3 fw-semibold rounded-3 btn-shimmer" type="submit">
+                <i class="fas fa-search me-2"></i>
+                Search Properties
+              </button>
+            </form>
+
+            <!-- Quick Stats -->
+            <div class="row g-3 g-md-4 mt-4 mt-lg-5 mb-2 justify-content-center stats-max hero-stats">
+              <div class="col-6 col-md-3 text-center hero-stat-anim">
+                <div class="stat-value display-6 fw-bold mb-1 lh-1">15,000+</div>
+                <div class="text-white-50">Active Listings</div>
+              </div>
+              <div class="col-6 col-md-3 text-center hero-stat-anim">
+                <div class="stat-value display-6 fw-bold mb-1">98%</div>
+                <div class="text-white-50">Client Satisfaction</div>
+              </div>
+              <div class="col-6 col-md-3 text-center hero-stat-anim">
+                <div class="stat-value display-6 fw-bold mb-1">500+</div>
+                <div class="text-white-50">Expert Agents</div>
+              </div>
+              <div class="col-6 col-md-3 text-center hero-stat-anim">
+                <div class="stat-value display-6 fw-bold mb-1">25</div>
+                <div class="text-white-50">Years Experience</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Properties Section -->
+    <section id="featured-properties" class="py-5 bg-light">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <div class="section-label mb-3">
+            <span class="section-label-line label-line-anim"></span>
+            <span>Premium Collection</span>
+            <span class="section-label-line-end label-line-anim"></span>
+          </div>
+          <h2 class="display-5 fw-bolder mb-3">
+            <span class="text-gradient-violet gradient-shimmer">Featured Properties</span>
+          </h2>
+          <p class="lead text-secondary mx-auto text-max-width">
+            Discover our handpicked selection of premium properties in the most
+            desirable locations
+          </p>
+        </div>
+
+        <div class="row g-4 mb-5 property-grid stagger-children">
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 property-card tilt-card border-0 shadow-sm">
+              <div class="card-img-wrap position-relative">
+                <img
+                  src="img/featured-properties-img-1.png"
+                  class="card-img-top"
+                  alt="Modern luxury house with pool"
+                 loading="lazy" />
+                <span class="badge rounded-pill bg-violet position-absolute top-0 start-0 m-3 card-badge">Featured</span>
+                <div class="property-heart heart-pulse">
+                  <i class="fas fa-heart text-secondary"></i>
+                </div>
+                <div class="property-photos">
+                  <span class="badge rounded-pill bg-dark bg-opacity-75">
+                    <i class="fas fa-camera me-1"></i>24 Photos
+                  </span>
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <span class="fs-3 fw-bold text-violet">$2,850,000</span>
+                  <span class="small text-secondary">Price per sq ft: $425</span>
+                </div>
+                <div class="d-flex align-items-center text-secondary mb-2">
+                  <span class="fw-medium">4 beds</span>
+                  <span class="mx-2">•</span>
+                  <span class="fw-medium">3.5 baths</span>
+                  <span class="mx-2">•</span>
+                  <span class="fw-medium">6,720 sqft</span>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">Modern Luxury Estate</h5>
+                <p class="card-text text-secondary mb-3">
+                  1234 Beverly Hills Drive, Beverly Hills, CA 90210
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="img/avatar-2.jpg"
+                      alt="John Mitchell - EliteHomes agent"
+                      class="rounded-circle me-2"
+                      width="32"
+                      height="32"
+                     loading="lazy" />
+                    <span class="small text-secondary">John Mitchell</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-violet-soft fw-medium"
+                    data-bs-toggle="modal"
+                    data-bs-target="#tourModal"
+                  >
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 property-card tilt-card border-0 shadow-sm">
+              <div class="card-img-wrap position-relative">
+                <img
+                  src="img/featured-properties-img-2.png"
+                  class="card-img-top"
+                  alt="Elegant downtown penthouse"
+                 loading="lazy" />
+                <span class="badge rounded-pill bg-success position-absolute top-0 start-0 m-3 card-badge">New Listing</span>
+                <div class="property-heart heart-pulse">
+                  <i class="fas fa-heart text-secondary"></i>
+                </div>
+                <div class="property-photos">
+                  <span class="badge rounded-pill bg-dark bg-opacity-75">
+                    <i class="fas fa-camera me-1"></i>18 Photos
+                  </span>
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <span class="fs-3 fw-bold text-violet">$1,425,000</span>
+                  <span class="small text-secondary">Price per sq ft: $650</span>
+                </div>
+                <div class="d-flex align-items-center text-secondary mb-2">
+                  <span class="fw-medium">3 beds</span>
+                  <span class="mx-2">•</span>
+                  <span class="fw-medium">2.5 baths</span>
+                  <span class="mx-2">•</span>
+                  <span class="fw-medium">2,192 sqft</span>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">Downtown Penthouse</h5>
+                <p class="card-text text-secondary mb-3">
+                  789 Metropolitan Ave, New York, NY 10001
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="img/avatar-5.jpg"
+                      alt="Emily Rodriguez - EliteHomes agent"
+                      class="rounded-circle me-2"
+                      width="32"
+                      height="32"
+                     loading="lazy" />
+                    <span class="small text-secondary">Emily Rodriguez</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-violet-soft fw-medium"
+                    data-bs-toggle="modal"
+                    data-bs-target="#tourModal"
+                  >
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 property-card tilt-card border-0 shadow-sm">
+              <div class="card-img-wrap position-relative">
+                <img
+                  src="img/featured-properties-img-3.png"
+                  class="card-img-top"
+                  alt="Cozy suburban family home"
+                 loading="lazy" />
+                <span class="badge rounded-pill bg-warning text-dark position-absolute top-0 start-0 m-3 card-badge">Price Drop</span>
+                <div class="property-heart heart-pulse">
+                  <i class="fas fa-heart text-secondary"></i>
+                </div>
+                <div class="property-photos">
+                  <span class="badge rounded-pill bg-dark bg-opacity-75">
+                    <i class="fas fa-camera me-1"></i>32 Photos
+                  </span>
+                </div>
+              </div>
+              <div class="card-body p-4">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <span class="fs-3 fw-bold text-violet">$875,000</span>
+                  <span class="small text-secondary text-decoration-line-through">$925,000</span>
+                </div>
+                <div class="d-flex align-items-center text-secondary mb-2">
+                  <span class="fw-medium">5 beds</span>
+                  <span class="mx-2">•</span>
+                  <span class="fw-medium">4 baths</span>
+                  <span class="mx-2">•</span>
+                  <span class="fw-medium">3,845 sqft</span>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-1">Family Suburban Home</h5>
+                <p class="card-text text-secondary mb-3">
+                  456 Oak Tree Lane, Austin, TX 78701
+                </p>
+                <div class="d-flex align-items-center justify-content-between">
+                  <div class="d-flex align-items-center">
+                    <img
+                      src="img/avatar-3.jpg"
+                      alt="Michael Chen - EliteHomes agent"
+                      class="rounded-circle me-2"
+                      width="32"
+                      height="32"
+                     loading="lazy" />
+                    <span class="small text-secondary">Michael Chen</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-violet-soft fw-medium"
+                    data-bs-toggle="modal"
+                    data-bs-target="#tourModal"
+                  >
+                    Schedule Tour
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <button type="button" class="btn btn-gradient-violet btn-lg px-5 py-3 fw-semibold btn-magnetic">
+            View All Properties <i class="fas fa-arrow-right ms-2"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Navigation Section -->
+    <section id="services-tabs" class="py-5 bg-white">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <div class="section-label mb-3">
+            <span class="section-label-line label-line-anim"></span>
+            <span>What We Offer</span>
+            <span class="section-label-line-end label-line-anim"></span>
+          </div>
+          <h2 class="display-5 fw-bolder mb-3">
+            <span class="text-gradient-violet gradient-shimmer">Our Services</span>
+          </h2>
+          <p class="lead text-secondary mx-auto text-max-width">
+            Comprehensive real estate solutions tailored to your needs
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <ul
+              class="nav nav-tabs justify-content-center flex-wrap gap-2 border-0 mb-4"
+              id="servicesTab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active tab-button fw-semibold border-0 border-bottom border-3 px-4 py-3"
+                  id="buying-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#buying"
+                  type="button"
+                  role="tab"
+                  aria-controls="buying"
+                  aria-selected="true"
+                >
+                  <i class="fas fa-home me-2"></i>Buying
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link tab-button fw-semibold border-0 border-bottom border-3 px-4 py-3"
+                  id="selling-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#selling"
+                  type="button"
+                  role="tab"
+                  aria-controls="selling"
+                  aria-selected="false"
+                >
+                  <i class="fas fa-dollar-sign me-2"></i>Selling
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link tab-button fw-semibold border-0 border-bottom border-3 px-4 py-3"
+                  id="renting-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#renting"
+                  type="button"
+                  role="tab"
+                  aria-controls="renting"
+                  aria-selected="false"
+                >
+                  <i class="fas fa-key me-2"></i>Renting
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link tab-button fw-semibold border-0 border-bottom border-3 px-4 py-3"
+                  id="investing-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#investing"
+                  type="button"
+                  role="tab"
+                  aria-controls="investing"
+                  aria-selected="false"
+                >
+                  <i class="fas fa-chart-bar me-2"></i>Investing
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link tab-button fw-semibold border-0 border-bottom border-3 px-4 py-3"
+                  id="commercial-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#commercial"
+                  type="button"
+                  role="tab"
+                  aria-controls="commercial"
+                  aria-selected="false"
+                >
+                  <i class="fas fa-building me-2"></i>Commercial
+                </button>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="servicesTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="buying"
+                role="tabpanel"
+                aria-labelledby="buying-tab"
+              >
+                <div class="row g-5 align-items-center">
+                  <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Home Buying Made Simple</h3>
+                    <p class="lead text-secondary mb-4">
+                      Our expert team guides you through every step of the home
+                      buying process, from initial search to closing day.
+                    </p>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-violet-soft tab-float">
+                        <i class="fas fa-search text-violet fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Property Search</h5>
+                        <p class="text-secondary mb-0">
+                          Access exclusive listings and get notified of new
+                          properties that match your criteria.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-violet-soft tab-float float-delay-1">
+                        <i class="fas fa-calculator text-violet fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Financial Planning</h5>
+                        <p class="text-secondary mb-0">
+                          Get pre-approved for mortgages and understand your
+                          budget with our financial experts.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-violet-soft tab-float float-delay-2">
+                        <i class="fas fa-handshake text-violet fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Negotiation Support</h5>
+                        <p class="text-secondary mb-0">
+                          Our skilled negotiators ensure you get the best possible
+                          deal on your dream home.
+                        </p>
+                      </div>
+                    </div>
+                    <button class="btn btn-violet text-white px-4 py-3 fw-semibold btn-magnetic">
+                      Start Your Search
+                    </button>
+                  </div>
+                  <div class="col-lg-6 position-relative">
+                    <img
+                      class="img-fluid rounded-5 shadow"
+                      src="img/service-img-1.webp"
+                      alt="happy family with real estate agent holding house keys"
+                     loading="lazy" />
+                    <div class="position-absolute bg-white p-4 rounded-4 shadow floating-stat-left">
+                      <div class="fs-4 fw-bold text-violet">98%</div>
+                      <div class="text-secondary">Success Rate</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="selling"
+                role="tabpanel"
+                aria-labelledby="selling-tab"
+              >
+                <div class="row g-5 align-items-center">
+                  <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Maximize Your Home's Value</h3>
+                    <p class="lead text-secondary mb-4">
+                      Sell your property quickly and for the best price with our
+                      comprehensive marketing strategy and expert guidance.
+                    </p>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-success bg-opacity-10 tab-float">
+                        <i class="fas fa-chart-line text-success fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Market Analysis</h5>
+                        <p class="text-secondary mb-0">
+                          Get a comprehensive market analysis to price your home
+                          competitively.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-success bg-opacity-10 tab-float float-delay-1">
+                        <i class="fas fa-camera text-success fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Professional Marketing</h5>
+                        <p class="text-secondary mb-0">
+                          High-quality photography, virtual tours, and
+                          multi-channel marketing campaigns.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-success bg-opacity-10 tab-float float-delay-2">
+                        <i class="fas fa-users text-success fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Buyer Screening</h5>
+                        <p class="text-secondary mb-0">
+                          We pre-qualify buyers to ensure serious inquiries and
+                          smooth transactions.
+                        </p>
+                      </div>
+                    </div>
+                    <button class="btn btn-success px-4 py-3 fw-semibold btn-magnetic">
+                      Get Home Valuation
+                    </button>
+                  </div>
+                  <div class="col-lg-6 position-relative">
+                    <img
+                      class="img-fluid rounded-5 shadow"
+                      src="img/service-img-2.webp"
+                      alt="real estate agent showing house to potential buyers"
+                     loading="lazy" />
+                    <div class="position-absolute bg-white p-4 rounded-4 shadow floating-stat-right">
+                      <div class="fs-4 fw-bold text-success">21 days</div>
+                      <div class="text-secondary">Avg. Time to Sell</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="renting"
+                role="tabpanel"
+                aria-labelledby="renting-tab"
+              >
+                <div class="row g-5 align-items-center">
+                  <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Premium Rental Properties</h3>
+                    <p class="lead text-secondary mb-4">
+                      Find your perfect rental home with our extensive portfolio of
+                      quality properties and personalized service.
+                    </p>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-purple-soft tab-float">
+                        <i class="fas fa-map-marked-alt text-purple fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Prime Locations</h5>
+                        <p class="text-secondary mb-0">
+                          Access rentals in the most desirable neighborhoods and
+                          communities.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-purple-soft tab-float float-delay-1">
+                        <i class="fas fa-shield-alt text-purple fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Verified Properties</h5>
+                        <p class="text-secondary mb-0">
+                          All our rental properties are thoroughly inspected and
+                          verified for quality.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-purple-soft tab-float float-delay-2">
+                        <i class="fas fa-tools text-purple fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">24/7 Support</h5>
+                        <p class="text-secondary mb-0">
+                          Round-the-clock maintenance and tenant support services.
+                        </p>
+                      </div>
+                    </div>
+                    <button class="btn btn-purple text-white px-4 py-3 fw-semibold btn-magnetic">
+                      Browse Rentals
+                    </button>
+                  </div>
+                  <div class="col-lg-6 position-relative">
+                    <img
+                      class="img-fluid rounded-5 shadow"
+                      src="img/service-img-3.webp"
+                      alt="modern apartment interior"
+                     loading="lazy" />
+                    <div class="position-absolute bg-white p-4 rounded-4 shadow floating-stat-left">
+                      <div class="fs-4 fw-bold text-purple">5,000+</div>
+                      <div class="text-secondary">Available Rentals</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="investing"
+                role="tabpanel"
+                aria-labelledby="investing-tab"
+              >
+                <div class="row g-5 align-items-center">
+                  <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Real Estate Investment</h3>
+                    <p class="lead text-secondary mb-4">
+                      Build wealth through strategic real estate investments with
+                      our expert guidance and market insights.
+                    </p>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-warning bg-opacity-10 tab-float">
+                        <i class="fas fa-chart-pie text-warning fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Portfolio Analysis</h5>
+                        <p class="text-secondary mb-0">
+                          Comprehensive analysis of investment opportunities and
+                          portfolio optimization.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-warning bg-opacity-10 tab-float float-delay-1">
+                        <i class="fas fa-money-bill-wave text-warning fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">ROI Projections</h5>
+                        <p class="text-secondary mb-0">
+                          Detailed return on investment calculations and market
+                          forecasting.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-warning bg-opacity-10 tab-float float-delay-2">
+                        <i class="fas fa-cog text-warning fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Property Management</h5>
+                        <p class="text-secondary mb-0">
+                          Full-service property management for hands-off
+                          investment experience.
+                        </p>
+                      </div>
+                    </div>
+                    <button class="btn btn-warning text-white px-4 py-3 fw-semibold btn-magnetic">
+                      Explore Investments
+                    </button>
+                  </div>
+                  <div class="col-lg-6 position-relative">
+                    <img
+                      class="img-fluid rounded-5 shadow"
+                      src="img/service-img-4.png"
+                      alt="investment property portfolio"
+                     loading="lazy" />
+                    <div class="position-absolute bg-white p-4 rounded-4 shadow floating-stat-right">
+                      <div class="fs-4 fw-bold text-warning">15%</div>
+                      <div class="text-secondary">Avg. Annual ROI</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="commercial"
+                role="tabpanel"
+                aria-labelledby="commercial-tab"
+              >
+                <div class="row g-5 align-items-center">
+                  <div class="col-lg-6">
+                    <h3 class="fw-bold mb-4">Commercial Real Estate</h3>
+                    <p class="lead text-secondary mb-4">
+                      Expert commercial real estate services for businesses,
+                      investors, and developers.
+                    </p>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-indigo-soft tab-float">
+                        <i class="fas fa-building text-indigo fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Office Spaces</h5>
+                        <p class="text-secondary mb-0">
+                          Prime office locations for businesses of all sizes and
+                          industries.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-indigo-soft tab-float float-delay-1">
+                        <i class="fas fa-warehouse text-indigo fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Industrial Properties</h5>
+                        <p class="text-secondary mb-0">
+                          Warehouses, manufacturing facilities, and distribution
+                          centers.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="d-flex mb-4">
+                      <div class="service-icon bg-indigo-soft tab-float float-delay-2">
+                        <i class="fas fa-store text-indigo fs-5"></i>
+                      </div>
+                      <div>
+                        <h5 class="fw-bold">Retail Spaces</h5>
+                        <p class="text-secondary mb-0">
+                          High-traffic retail locations and shopping center
+                          opportunities.
+                        </p>
+                      </div>
+                    </div>
+                    <button class="btn btn-indigo text-white px-4 py-3 fw-semibold btn-magnetic">
+                      View Commercial Properties
+                    </button>
+                  </div>
+                  <div class="col-lg-6 position-relative">
+                    <img
+                      class="img-fluid rounded-5 shadow"
+                      src="img/service-img-5.png"
+                      alt="modern office building"
+                     loading="lazy" />
+                    <div class="position-absolute bg-white p-4 rounded-4 shadow floating-stat-left">
+                      <div class="fs-4 fw-bold text-indigo">$2.5B</div>
+                      <div class="text-secondary">Commercial Volume</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Carousel Section -->
+    <section id="testimonials" class="py-5 bg-gradient-violet-dark text-white">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <div class="section-label section-label-light mb-3">
+            <span class="section-label-line label-line-anim label-line-light"></span>
+            <span>Client Stories</span>
+            <span class="section-label-line-end label-line-anim label-line-light-end"></span>
+          </div>
+          <h2 class="display-5 fw-bolder mb-3">What Our Clients Say</h2>
+          <p class="lead text-white-50 mx-auto text-max-width">
+            Hear from satisfied homeowners who found their dream properties with
+            EliteHomes
+          </p>
+        </div>
+
+        <div
+          id="testimonialCarousel"
+          class="carousel slide position-relative px-md-5 mx-auto testimonial-wrapper-max"
+          data-bs-ride="carousel"
+          data-bs-interval="5000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card testimonial-card-anim mx-auto testimonial-card-max px-3">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="text-warning fs-5 me-3">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="text-secondary fw-medium">5.0 out of 5</span>
+                  </div>
+                  <blockquote class="fs-5 text-secondary lh-base mb-4">
+                    "EliteHomes made our home buying experience absolutely
+                    seamless. Sarah and her team went above and beyond to help
+                    us find the perfect family home in Beverly Hills. Their
+                    market knowledge and negotiation skills saved us over
+                    $100,000 on our purchase. We couldn't be happier!"
+                  </blockquote>
+                  <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+                    <img
+                      src="img/avatar-1.jpg"
+                      alt="Jennifer & Mark Thompson - EliteHomes clients"
+                      class="rounded-circle me-md-3 mb-3 mb-md-0"
+                      width="64"
+                      height="64"
+                     loading="lazy" />
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">Jennifer & Mark Thompson</h5>
+                      <p class="text-secondary mb-0">Beverly Hills Homeowners</p>
+                      <p class="small text-muted mb-0">Purchased $2.8M Family Estate</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="testimonial-card testimonial-card-anim mx-auto testimonial-card-max px-3">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="text-warning fs-5 me-3">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="text-secondary fw-medium">5.0 out of 5</span>
+                  </div>
+                  <blockquote class="fs-5 text-secondary lh-base mb-4">
+                    "As first-time investors, we were nervous about entering the
+                    real estate market. The EliteHomes investment team provided
+                    incredible guidance and helped us build a portfolio that's
+                    already generating 18% annual returns. Their expertise is
+                    unmatched."
+                  </blockquote>
+                  <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+                    <img
+                      src="img/avatar-2.jpg"
+                      alt="David Rodriguez - EliteHomes client"
+                      class="rounded-circle me-md-3 mb-3 mb-md-0"
+                      width="64"
+                      height="64"
+                     loading="lazy" />
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">David Rodriguez</h5>
+                      <p class="text-secondary mb-0">Real Estate Investor</p>
+                      <p class="small text-muted mb-0">$1.2M Investment Portfolio</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="testimonial-card testimonial-card-anim mx-auto testimonial-card-max px-3">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="text-warning fs-5 me-3">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="text-secondary fw-medium">5.0 out of 5</span>
+                  </div>
+                  <blockquote class="fs-5 text-secondary lh-base mb-4">
+                    "Selling our Manhattan penthouse was stress-free thanks to
+                    EliteHomes. They marketed it beautifully, brought qualified
+                    buyers, and we sold for 15% above asking price in just 10
+                    days. Their professional photography and staging made all
+                    the difference."
+                  </blockquote>
+                  <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+                    <img
+                      src="img/avatar-5.jpg"
+                      alt="Amanda Chen - EliteHomes client"
+                      class="rounded-circle me-md-3 mb-3 mb-md-0"
+                      width="64"
+                      height="64"
+                     loading="lazy" />
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">Amanda Chen</h5>
+                      <p class="text-secondary mb-0">Manhattan Seller</p>
+                      <p class="small text-muted mb-0">Sold $3.2M Penthouse</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="testimonial-card testimonial-card-anim mx-auto testimonial-card-max px-3">
+                  <div class="d-flex align-items-center mb-4">
+                    <div class="text-warning fs-5 me-3">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                    <span class="text-secondary fw-medium">5.0 out of 5</span>
+                  </div>
+                  <blockquote class="fs-5 text-secondary lh-base mb-4">
+                    "Our company needed to relocate to a larger office space
+                    quickly. EliteHomes' commercial team found us the perfect
+                    building in downtown Austin with flexible lease terms and
+                    great amenities. They handled everything professionally and
+                    efficiently."
+                  </blockquote>
+                  <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+                    <img
+                      src="img/avatar-3.jpg"
+                      alt="Michael Foster - EliteHomes client"
+                      class="rounded-circle me-md-3 mb-3 mb-md-0"
+                      width="64"
+                      height="64"
+                     loading="lazy" />
+                    <div>
+                      <h5 class="fw-bold text-dark mb-1">Michael Foster</h5>
+                      <p class="text-secondary mb-0">CEO, TechStart Inc.</p>
+                      <p class="small text-muted mb-0">15,000 sq ft Office Lease</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev testimonial-control prev d-none d-md-flex"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+            aria-label="Previous testimonial"
+          >
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          <button
+            class="carousel-control-next testimonial-control next d-none d-md-flex"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+            aria-label="Next testimonial"
+          >
+            <i class="fas fa-chevron-right"></i>
+          </button>
+
+          <div class="carousel-indicators testimonial-dots position-static justify-content-center gap-2 mt-4 mb-0">
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="0"
+              class="carousel-dot active"
+              aria-current="true"
+              aria-label="Testimonial 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="1"
+              class="carousel-dot"
+              aria-label="Testimonial 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="2"
+              class="carousel-dot"
+              aria-label="Testimonial 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="3"
+              class="carousel-dot"
+              aria-label="Testimonial 4"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq-section" class="py-5 bg-light">
+      <div class="container">
+        <div class="section-header text-center mb-5">
+          <div class="section-label mb-3">
+            <span class="section-label-line label-line-anim"></span>
+            <span>Help Center</span>
+            <span class="section-label-line-end label-line-anim"></span>
+          </div>
+          <h2 class="display-5 fw-bolder mb-3">
+            <span class="text-gradient-violet-alt gradient-shimmer">Frequently Asked Questions</span>
+          </h2>
+          <p class="lead text-secondary mx-auto text-max-width">
+            Get answers to the most common questions about buying, selling, and
+            investing in real estate
+          </p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="accordion accordion-flush d-flex flex-column gap-3" id="faqAccordion">
+              <div class="accordion-item faq-item-anim reveal reveal-left">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed shadow-sm rounded-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-1"
+                    aria-expanded="false"
+                    aria-controls="faq-1"
+                  >
+                    How do I know if I'm ready to buy a home?
+
+                  </button>
+                </h2>
+                <div
+                  id="faq-1"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    You're ready to buy a home when you have stable income, a good
+                    credit score (typically 620+), a down payment saved (usually
+                    10-20% of the home price), and you plan to stay in the area for
+                    at least 3-5 years. Our team can help assess your financial
+                    readiness and connect you with mortgage pre-approval services.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item-anim reveal reveal-right">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed shadow-sm rounded-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-2"
+                    aria-expanded="false"
+                    aria-controls="faq-2"
+                  >
+                    What's the best time of year to sell my home?
+
+                  </button>
+                </h2>
+                <div
+                  id="faq-2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    Spring and early summer (March through June) are traditionally
+                    the best times to sell, as buyers are more active and homes show
+                    better with good weather. However, market conditions, local
+                    factors, and your personal timeline are more important than the
+                    season. We can help you determine the optimal timing based on
+                    current market conditions in your area.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item-anim reveal reveal-left">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed shadow-sm rounded-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-3"
+                    aria-expanded="false"
+                    aria-controls="faq-3"
+                  >
+                    How much should I offer on a house?
+
+                  </button>
+                </h2>
+                <div
+                  id="faq-3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    Your offer should be based on comparable sales in the area, the
+                    home's condition, current market conditions, and your budget. In
+                    competitive markets, you might need to offer at or above asking
+                    price. Our agents will provide a detailed comparative market
+                    analysis (CMA) to help you make a competitive yet reasonable
+                    offer.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item-anim reveal reveal-right">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed shadow-sm rounded-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-4"
+                    aria-expanded="false"
+                    aria-controls="faq-4"
+                  >
+                    What are closing costs and who pays them?
+
+                  </button>
+                </h2>
+                <div
+                  id="faq-4"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    Closing costs typically range from 2-5% of the home's purchase
+                    price and include fees for loan origination, appraisal, title
+                    insurance, attorney fees, and taxes. Both buyers and sellers
+                    have closing costs, though they vary by location and can be
+                    negotiated. We'll provide a detailed breakdown of expected costs
+                    early in the process.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item-anim reveal reveal-left">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed shadow-sm rounded-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-5"
+                    aria-expanded="false"
+                    aria-controls="faq-5"
+                  >
+                    Should I get a home inspection?
+
+                  </button>
+                </h2>
+                <div
+                  id="faq-5"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    Yes, absolutely! A professional home inspection typically costs
+                    $300-600 but can save you thousands by identifying potential
+                    issues before you buy. We recommend inspections for all property
+                    types and can connect you with qualified, licensed inspectors in
+                    your area.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item-anim reveal reveal-right">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed shadow-sm rounded-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-6"
+                    aria-expanded="false"
+                    aria-controls="faq-6"
+                  >
+                    How long does it take to buy or sell a home?
+
+                  </button>
+                </h2>
+                <div
+                  id="faq-6"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    For buyers, the process typically takes 30-45 days from offer
+                    acceptance to closing, though finding the right home can take
+                    weeks or months. For sellers, the average time on market varies
+                    by location and price range, but our properties typically sell
+                    within 28 days. We'll provide realistic timelines based on your
+                    specific situation and local market conditions.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item-anim reveal reveal-left">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed shadow-sm rounded-4"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq-7"
+                    aria-expanded="false"
+                    aria-controls="faq-7"
+                  >
+                    What makes EliteHomes different from other real estate companies?
+
+                  </button>
+                </h2>
+                <div
+                  id="faq-7"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body text-secondary">
+                    We combine cutting-edge technology with personalized service,
+                    offering virtual tours, AI-powered property matching,
+                    comprehensive market analytics, and a dedicated team of experts
+                    for each client. Our 98% client satisfaction rate and average
+                    21-day selling time speak to our commitment to excellence and
+                    results.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section" class="py-5 bg-white position-relative overflow-hidden">
+      <!-- Decorative background -->
+      <div class="d-none d-lg-block position-absolute top-0 start-0 w-100 h-100 overflow-hidden">
+        <div class="decor-blob bg-violet-soft decor-blob-violet"></div>
+        <div class="decor-blob bg-purple-soft decor-blob-purple"></div>
+        <div class="position-absolute top-50 start-50 translate-middle w-100 h-100">
+          <div class="position-absolute border border-4 border-violet-soft rounded-circle decor-circle-violet"></div>
+          <div class="position-absolute border border-4 border-purple-soft rounded-circle decor-circle-purple"></div>
+        </div>
+      </div>
+
+      <div class="container position-relative z-2">
+        <div class="section-header text-center mb-5">
+          <div class="section-label mb-3">
+            <span class="section-label-line label-line-anim"></span>
+            <span>Contact Us</span>
+            <span class="section-label-line-end label-line-anim"></span>
+          </div>
+          <h2 class="display-5 fw-bolder mb-3">
+            <span class="text-gradient-violet gradient-shimmer">Get In Touch</span>
+          </h2>
+          <p class="lead text-secondary mx-auto text-max-width">
+            Ready to start your real estate journey? Our expert team is here to
+            help you every step of the way
+          </p>
+        </div>
+
+        <!-- Contact Cards -->
+        <div class="row g-4 mb-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="card contact-card contact-card-glow h-100 border-2 shadow-sm">
+              <div class="card-body">
+                <div class="contact-icon bg-gradient-violet">
+                  <i class="fas fa-phone-alt fa-flip-horizontal text-white fs-3"></i>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-2">Call Us</h5>
+                <p class="card-text text-secondary small mb-2">Mon-Fri from 8am to 5pm</p>
+                <a href="tel:+15551234567" class="text-violet fw-semibold text-decoration-none">+1 (555) 123-4567</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card contact-card contact-card-glow h-100 border-2 shadow-sm">
+              <div class="card-body">
+                <div class="contact-icon bg-gradient-purple">
+                  <i class="fas fa-envelope text-white fs-3"></i>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-2">Email Us</h5>
+                <p class="card-text text-secondary small mb-2">We'll respond within 24hrs</p>
+                <a href="mailto:info@elitehomes.com" class="text-purple fw-semibold text-decoration-none">info@elitehomes.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card contact-card contact-card-glow h-100 border-2 shadow-sm">
+              <div class="card-body">
+                <div class="contact-icon bg-gradient-pink-amber">
+                  <i class="fas fa-map-marker-alt text-white fs-3"></i>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-2">Visit Us</h5>
+                <p class="card-text text-secondary small mb-2">Come say hello</p>
+                <p class="card-text text-pink fw-semibold mb-0">Beverly Hills, CA</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card contact-card contact-card-glow h-100 border-2 shadow-sm">
+              <div class="card-body">
+                <div class="contact-icon bg-gradient-indigo">
+                  <i class="fas fa-comments text-white fs-3"></i>
+                </div>
+                <h5 class="card-title fw-bold text-dark mb-2">Live Chat</h5>
+                <p class="card-text text-secondary small mb-2">Available 24/7</p>
+                <button type="button" class="btn btn-link text-indigo fw-semibold text-decoration-none p-0">Start chatting →</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Left Side - Contact Info & Social -->
+          <div class="col-lg-4">
+            <div class="d-flex flex-column gap-4">
+              <div class="card border-0 shadow rounded-5 bg-light-gradient">
+                <div class="card-body p-4">
+                <h4 class="fw-bold text-dark mb-4">Contact Information</h4>
+
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-transparent border-0 px-0 d-flex mb-4">
+                    <div class="bg-white rounded-4 d-flex align-items-center justify-content-center flex-shrink-0 icon-square-md">
+                      <i class="fas fa-map-marker-alt text-violet fs-5"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h6 class="fw-bold mb-1">Address</h6>
+                      <p class="text-secondary small mb-0">
+                        1234 Luxury Boulevard<br />Beverly Hills, CA 90210
+                      </p>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item bg-transparent border-0 px-0 d-flex mb-4">
+                    <div class="bg-white rounded-4 d-flex align-items-center justify-content-center flex-shrink-0 icon-square-md">
+                      <i class="fas fa-phone text-purple fs-5"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h6 class="fw-bold mb-1">Phone</h6>
+                      <div class="d-flex flex-column">
+                        <a href="tel:+15551234567" class="text-secondary small text-decoration-none">+1 (555) 123-4567</a>
+                        <a href="tel:+15559876543" class="text-secondary small text-decoration-none">+1 (555) 987-6543</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item bg-transparent border-0 px-0 d-flex mb-4">
+                    <div class="bg-white rounded-4 d-flex align-items-center justify-content-center flex-shrink-0 icon-square-md">
+                      <i class="fas fa-envelope text-pink fs-5"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h6 class="fw-bold mb-1">Email</h6>
+                      <div class="d-flex flex-column">
+                        <a href="mailto:info@elitehomes.com" class="text-secondary small text-decoration-none">info@elitehomes.com</a>
+                        <a href="mailto:support@elitehomes.com" class="text-secondary small text-decoration-none">support@elitehomes.com</a>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="list-group-item bg-transparent border-0 px-0 d-flex">
+                    <div class="bg-white rounded-4 d-flex align-items-center justify-content-center flex-shrink-0 icon-square-md">
+                      <i class="fas fa-clock text-indigo fs-5"></i>
+                    </div>
+                    <div class="ms-3">
+                      <h6 class="fw-bold mb-1">Working Hours</h6>
+                      <p class="text-secondary small mb-0">
+                        Mon-Fri: 8:00 AM - 8:00 PM<br />Sat-Sun: 9:00 AM - 6:00 PM
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+                </div>
+              </div>
+
+              <!-- Social Media -->
+              <div class="p-4 rounded-5 text-white bg-gradient-violet shadow-soft">
+                <h5 class="fw-bold mb-3">Connect With Us</h5>
+                <p class="text-white-50 small mb-4">
+                  Follow us on social media for updates and insights
+                </p>
+                <div class="btn-group" role="group" aria-label="Social media links">
+                  <a href="#" class="btn social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="btn social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" class="btn social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="btn social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#" class="btn social-btn" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side - Contact Form -->
+          <div class="col-lg-8">
+            <div class="card border-0 shadow rounded-5 h-100">
+              <div class="card-body p-4 p-md-5">
+              <div class="mb-4">
+                <h3 class="card-title fw-bold text-dark mb-2">Send us a message</h3>
+                <p class="card-text text-secondary mb-0">
+                  Fill out the form below and we'll get back to you as soon as
+                  possible
+                </p>
+              </div>
+
+              <form id="contactForm" class="needs-validation" novalidate>
+                <div class="row g-3 mb-3">
+                  <div class="col-md-6 form-field-anim">
+                    <label for="firstName" class="form-label fw-semibold small">
+                      First Name <span class="text-danger">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control form-control-lg form-field-light"
+                      id="firstName"
+                      name="firstName"
+                      placeholder="John"
+                      required
+                      minlength="2"
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter your first name (at least 2 characters).</div>
+                  </div>
+                  <div class="col-md-6 form-field-anim">
+                    <label for="lastName" class="form-label fw-semibold small">
+                      Last Name <span class="text-danger">*</span>
+                    </label>
+                    <input
+                      type="text"
+                      class="form-control form-control-lg form-field-light"
+                      id="lastName"
+                      name="lastName"
+                      placeholder="Doe"
+                      required
+                      minlength="2"
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter your last name (at least 2 characters).</div>
+                  </div>
+                </div>
+
+                <div class="row g-3 mb-3">
+                  <div class="col-md-6 form-field-anim">
+                    <label for="email" class="form-label fw-semibold small">
+                      Email Address <span class="text-danger">*</span>
+                    </label>
+                    <div class="input-group input-group-lg has-validation">
+                      <span class="input-group-text form-field-light border-0">
+                        <i class="fas fa-envelope text-muted"></i>
+                      </span>
+                      <input
+                        type="email"
+                        class="form-control form-field-light border-0"
+                        id="email"
+                        name="email"
+                        placeholder="john@example.com"
+                        required
+                      />
+                      <div class="valid-feedback">Valid email!</div>
+                      <div class="invalid-feedback">Please enter a valid email address.</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 form-field-anim">
+                    <label for="phone" class="form-label fw-semibold small">Phone Number</label>
+                    <div class="input-group input-group-lg">
+                      <span class="input-group-text form-field-light border-0">
+                        <i class="fas fa-phone text-muted"></i>
+                      </span>
+                      <input
+                        type="tel"
+                        class="form-control form-field-light border-0"
+                        id="phone"
+                        name="phone"
+                        placeholder="+1 (555) 000-0000"
+                        pattern="^[0-9+\s()\-]{7,20}$"
+                      />
+                      <div class="invalid-feedback">Please enter a valid phone number.</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mb-3 form-field-anim">
+                  <label for="service" class="form-label fw-semibold small">I'm interested in</label>
+                  <select class="form-select form-select-lg form-field-light" id="service" name="service">
+                    <option value="">Select a service</option>
+                    <option>Buying a home</option>
+                    <option>Selling a home</option>
+                    <option>Renting a property</option>
+                    <option>Investment opportunities</option>
+                    <option>Commercial real estate</option>
+                    <option>Property management</option>
+                    <option>Market consultation</option>
+                  </select>
+                </div>
+
+                <div class="mb-3 form-field-anim">
+                  <label for="message" class="form-label fw-semibold small">
+                    Your Message <span class="text-danger">*</span>
+                  </label>
+                  <textarea
+                    rows="5"
+                    class="form-control form-control-lg form-field-light"
+                    id="message"
+                    name="message"
+                    placeholder="Tell us about your real estate needs..."
+                    required
+                    minlength="10"
+                  ></textarea>
+                  <div class="valid-feedback">Thank you for the details!</div>
+                  <div class="invalid-feedback">Please write at least 10 characters.</div>
+                </div>
+
+                <div class="form-check p-3 rounded-4 bg-violet-soft mb-4">
+                  <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="newsletter"
+                    class="form-check-input"
+                  />
+                  <label for="newsletter" class="form-check-label text-secondary small">
+                    I agree to receive marketing communications and updates
+                    from EliteHomes
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  id="submitBtn"
+                  class="btn btn-gradient-violet btn-lg w-100 py-3 fw-bold d-flex align-items-center justify-content-center gap-2 btn-magnetic"
+                >
+                  <span id="btnText">Send Message</span>
+                  <span id="btnSpinner" class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                  <i id="btnIcon" class="fas fa-paper-plane"></i>
+                </button>
+
+                <p class="text-center small text-secondary mt-3 mb-0">
+                  We respect your privacy. Your information will never be shared.
+                </p>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Schedule Tour Modal -->
+    <div
+      class="modal fade"
+      id="tourModal"
+      tabindex="-1"
+      aria-labelledby="tourModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 shadow">
+          <div class="modal-header border-0">
+            <h5 class="modal-title fw-bold" id="tourModalLabel">Schedule a Property Tour</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-secondary mb-3">
+              Our agents are ready to show you the property. Call us or send a message through the contact form.
+            </p>
+            <p class="mb-0">
+              <i class="fas fa-phone text-violet me-2"></i>
+              <a href="tel:+15551234567" class="text-violet fw-semibold text-decoration-none">+1 (555) 123-4567</a>
+            </p>
+          </div>
+          <div class="modal-footer border-0">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="#contact-section" class="btn btn-violet text-white" data-bs-dismiss="modal">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-violet-dark text-white py-5">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-md-4 text-center text-md-start">
+            <span class="fs-4 fw-bold">EliteHomes</span>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="text-white-50 mb-0">© 2025 EliteHomes. All rights reserved.</p>
+          </div>
+          <div class="col-md-4 text-center text-md-end">
+            <div class="d-inline-flex gap-2">
+              <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-btn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="border-white border-opacity-10 my-4" />
+
+        <div class="text-center small text-white-50">
+          <p class="mb-0">
+            Made with <i class="fas fa-heart text-danger"></i> for finding your
+            dream home
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Toast (form success) -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+      <div
+        id="formSuccessToast"
+        class="toast align-items-center text-bg-success border-0"
+        role="alert"
+        aria-live="assertive"
+        aria-atomic="true"
+      >
+        <div class="d-flex">
+          <div class="toast-body">
+            <i class="fas fa-check-circle me-2"></i>
+            Thank you for your message! We'll get back to you soon.
+          </div>
+          <button
+            type="button"
+            class="btn-close btn-close-white me-2 m-auto"
+            data-bs-dismiss="toast"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/animations.js" defer></script>
+  </body>
+</html>
