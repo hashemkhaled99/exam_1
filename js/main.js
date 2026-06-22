@@ -16,6 +16,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
   navLinks.forEach(function (link) {
     link.addEventListener('click', function () {
+      // keep menu open when tapping a dropdown toggle (e.g. Properties)
+      if (link.classList.contains('dropdown-toggle')) return;
+      if (link.getAttribute('data-bs-toggle') === 'dropdown') return;
+
+      if (window.innerWidth < 992 && navbarCollapse && navbarCollapse.classList.contains('show')) {
+        bsCollapse.hide();
+      }
+    });
+  });
+
+  // close mobile menu when a link inside the properties dropdown is tapped
+  document.querySelectorAll('#mainNav .dropdown-menu a[href^="#"]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      const href = link.getAttribute('href');
+      if (!href || href === '#') return;
       if (window.innerWidth < 992 && navbarCollapse && navbarCollapse.classList.contains('show')) {
         bsCollapse.hide();
       }
